@@ -4,7 +4,7 @@ class Person {
   final String country = 'Indonesia';
 
   Person(this.name, this.address);
-  Person.onlyAddress(String address) : this('no name', address);
+  Person.onlyAddress(String address) : this('no name', address); 
   Person.onlyNamed(String name) : this(name, 'no Address');
 
   Person.fromJakarta() : this.onlyAddress("jakarta");
